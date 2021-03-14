@@ -1,0 +1,48 @@
+
+.nav_customized_for_navbar{
+    background-color: rgb(102, 102, 102);
+    padding:20px;
+    color:cornsilk;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    position:fixed;
+    width:100%;
+}
+
+.nav_unordered_list_customized{
+    list-style: none;
+    display: flex;
+    min-width: 200px;
+    justify-content: space-around;
+}
+
+.a_customized{
+    list-style: none;
+    text-decoration: none;
+    min-width: 100px;
+    text-align: center;
+}
+
+@media(max-width:550px){
+    .nav_customized_for_navbar,.nav_unordered_list_customized{
+        background-color: rgb(102, 102, 102);
+        flex-direction: column;
+    }
+    .list_customized{
+        background-color: rgb(102, 102, 102);
+        text-align: center;
+        padding: 5px;
+    }
+    .a_customized{
+        background-color: rgb(102, 102, 102);
+        text-align: center;
+        padding: 5px;
+    }
+    .nav_customized_for_navbar{
+        background-color: rgb(102, 102, 102);
+        padding: 5px;
+    }
+}
